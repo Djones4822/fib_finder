@@ -35,7 +35,7 @@ def find_fib():
             print "You didn't enter a digit!"
             
     if len(argv)>1:
-        if arvg1 == 'recursive':
+        if arvg[1] == 'recursive':
             return recursion_fib(num)
     else:
         while True:
@@ -49,7 +49,6 @@ def find_fib():
 
 
 def main():
-    return(find_fib())
     print(find_fib())
 
 if __name__ == '__main__':
